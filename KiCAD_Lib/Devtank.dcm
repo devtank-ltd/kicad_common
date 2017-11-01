@@ -1,0 +1,279 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +1V25
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V2_LAN_A
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V2_LAN_PLL
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V2_PLL
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V2_USB_PLL
+K POWER, PWR
+$ENDCMP
+#
+$CMP +2V5_LAN_A
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_ISO1
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_ISO2
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_ISO3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_ISO4
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_LAN_A
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_ISO1
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_ISO2
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_ISO3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_ISO4
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_STBY
+K POWER, PWR
+$ENDCMP
+#
+$CMP +CM_1V8
+K POWER, PWR
+$ENDCMP
+#
+$CMP +CM_3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +CM_5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +CM_VDAC
+K POWER, PWR
+$ENDCMP
+#
+$CMP -2V5
+K POWER, PWR
+$ENDCMP
+#
+$CMP -5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP AD8476
+D Low Power Differential Amplifier
+K differential amplifier unity gain low power adc driver
+$ENDCMP
+#
+$CMP AD8616
+D Precision Rail to Rail Opamp
+K dual opamp rail to rail 20mHz
+$ENDCMP
+#
+$CMP ADC128S052
+D 12-bit ADC, 8 Channels, SPI compatible, TSSOP-16
+K 12bit ADC 8 Channels TSSOP SPI
+F http://www.ti.com/lit/ds/symlink/adc128s052.pdf
+$ENDCMP
+#
+$CMP ADIS16203CCCZ
+D ADIS16203CCCZ Digital Inclinometer
+$ENDCMP
+#
+$CMP ADP1720
+D 50mA, High Voltage Micropower Linear Regulator
+$ENDCMP
+#
+$CMP ADS1015
+D 12-bit analog to digital converter, 4 inputs, I2C interface
+K adc spi quad double
+$ENDCMP
+#
+$CMP ADS1248
+D ADS1248 24bit 2ksps ADC with PGA
+K 24bit ADC PGA Sensor Measurement 2ksps
+$ENDCMP
+#
+$CMP ADuM1401
+D Low Power Four Channel 3/1 Digital Isolator, 90Mbps, 16 SOIC_W
+K 4Ch Quad Digital Isolator 90Mbps
+$ENDCMP
+#
+$CMP ATX_MOLEX_02X10
+D Connector, double row, 02x10
+K connector
+$ENDCMP
+#
+$CMP ATX_MOLEX_02X12
+D Connector, double row, 02x12
+K connector
+$ENDCMP
+#
+$CMP CONN_02X08
+D Connector, double row, 02x08, pin header
+K connector
+$ENDCMP
+#
+$CMP DB50_MALE_MountingHoles
+D 50-pin male D-SUB connector, Mounting Hole
+K male D-SUB connector
+$ENDCMP
+#
+$CMP DIN_8
+D 5 pins connector, 41524
+K connector DIN 5-pins 41524
+$ENDCMP
+#
+$CMP GND_ISO1
+K POWER, PWR
+$ENDCMP
+#
+$CMP GND_ISO2
+K POWER, PWR
+$ENDCMP
+#
+$CMP GND_ISO3
+K POWER, PWR
+$ENDCMP
+#
+$CMP GND_ISO4
+K POWER, PWR
+$ENDCMP
+#
+$CMP INA139
+D Current shunt Monitor 2.7V to 40V
+K Current shunt amplifier
+$ENDCMP
+#
+$CMP LM22670
+D 3A DC-DC Step Down Simple Switcher Regulator
+K 3A DC-DC Step down switcher regulator
+$ENDCMP
+#
+$CMP LM95071CIMF
+D LM95071CIMF
+$ENDCMP
+#
+$CMP Lattice_ice40-HX8KBreakoutBoard
+D Connector ice40 daughterboard
+K connector
+$ENDCMP
+#
+$CMP MC74VHC1GT14
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+$CMP MCP4725
+D 12-bit digital to analog converter, I2C interface
+K DAC I2C single
+$ENDCMP
+#
+$CMP MMBT2222
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP NCS20032
+D Dual OpAmp
+K OpAmp
+F ns/lm193.pdf
+$ENDCMP
+#
+$CMP NL17SZ17
+D Non-Inverting Schmitt Trigger
+K Schmitt Trigger
+$ENDCMP
+#
+$CMP Q_NMOS_DS_POWERPAK
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP RET_DC
+K POWER, PWR
+$ENDCMP
+#
+$CMP RET_GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP RJ45-TRANS_SI-61001-F
+D RJ45 with transformer + leds STEWART 10/100/1000
+K RJ45 10/100/1000
+$ENDCMP
+#
+$CMP RJ45-TRANS_VALCON
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
+$CMP SPST-NO
+D General Purpose Relay SPST-NO, 5A, 30V
+K Relay, 12V, SPST
+$ENDCMP
+#
+$CMP ST485
+D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
+K RS485 RS422 transceiver full duplex
+F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
+$CMP TLC271
+D Single Dual Supply Op amp.
+K AmpliOp
+$ENDCMP
+#
+$CMP USB2517
+D USB2517
+$ENDCMP
+#
+$CMP USB3_HEADER
+D Connector, double row, 02x10
+K connector
+$ENDCMP
+#
+$CMP USB_A_DOUBLE
+D USB Type A connector
+K connector USB USB_A
+$ENDCMP
+#
+$CMP USB_HEADER
+D Connector, double row, 02x05
+K connector
+$ENDCMP
+#
+$CMP VO14642AT
+D 60V, 2A Solid State Relay
+K SS
+$ENDCMP
+#
+#End Doc Library
