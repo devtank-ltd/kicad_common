@@ -1,4 +1,4 @@
-update=Thu 02 Nov 2017 11:56:53 GMT
+update=Thu 02 Nov 2017 12:51:07 GMT
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,7 +27,7 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../Devtank_Schema_Lib
+LibDir=../common/Devtank_Schema_Lib
 [eeschema/libraries]
 LibName1=Devtank
 LibName2=power
