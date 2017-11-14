@@ -29,7 +29,7 @@ Create git controlled folder for new project and add common Kicad libraries.
     cd my_new_project
     git init
     
-    git submodule add ssh.devtank.co.uk:/git/kicad_devtank_common.git common
+    git submodule add ssh.devtank.co.uk:/git/kicad_devtank_common common
 
 
 Step 2
@@ -70,7 +70,7 @@ Add git remote repository for backup and sharing.
 
 **(Ask Joe/IT for new git repo on the server. In this example it's "my_new_kicad_project")**
 
-    git remote add origin ssh://git@ssh.devtank.co.uk:/git/my_new_kicad_project
+    git remote add origin ssh://ssh.devtank.co.uk:/git/my_new_kicad_project
     git push -u origin master # Push new git project to new empty git on server.
 
 
@@ -79,7 +79,7 @@ Cloning an existing project
 
 To checkout an existing project afresh do:
 
-    git clone ssh://git@ssh.devtank.co.uk:/git/my_new_kicad_project
+    git clone ssh://ssh.devtank.co.uk:/git/my_new_kicad_project
     cd my_new_kicad_project
     git submodule init
     git submodule update
