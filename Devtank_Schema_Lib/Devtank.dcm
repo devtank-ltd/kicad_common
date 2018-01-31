@@ -122,6 +122,11 @@ D ADS1248 24bit 2ksps ADC with PGA
 K 24bit ADC PGA Sensor Measurement 2ksps
 $ENDCMP
 #
+$CMP ADuM1201
+D Low Power Two Channel 1/1 Digital Isolator, 25Mbps, 8 SOIC_W
+K 2Ch Quad Digital Isolator 25Mbps
+$ENDCMP
+#
 $CMP ADuM1401
 D Low Power Four Channel 3/1 Digital Isolator, 90Mbps, 16 SOIC_W
 K 4Ch Quad Digital Isolator 90Mbps
@@ -171,6 +176,11 @@ $ENDCMP
 $CMP INA139
 D Current shunt Monitor 2.7V to 40V
 K Current shunt amplifier
+$ENDCMP
+#
+$CMP ISO1050
+D Isolated CAN Transceiver, SO8
+K Galvonic Isolation, CAN Transceiver
 $ENDCMP
 #
 $CMP LM22670
