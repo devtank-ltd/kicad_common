@@ -88,6 +88,57 @@ $CMP -5V
 K POWER, PWR
 $ENDCMP
 #
+$CMP 12V_GND
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP 74AHC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LV21
+D Dual 4-input NAND
+K TTL Nand4
+$ENDCMP
+#
+$CMP 74LVC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC2G74
+D 74AUC1G74, Single D Flip-Flop, Low-Voltage CMOS
+K Single D Flip-Flop D CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP AD7328
+D 8-Channel, True Bipolar, 12-Bit ADC, SPI Bus, TSSOP-20
+K adc 8ch 12bit SPI
+$ENDCMP
+#
 $CMP AD8476
 D Low Power Differential Amplifier
 K differential amplifier unity gain low power adc driver
@@ -140,6 +191,23 @@ $ENDCMP
 $CMP ATX_MOLEX_02X12
 D Connector, double row, 02x12
 K connector
+$ENDCMP
+#
+$CMP BQ32000
+D Real Time Clock with battery backup and trickle charger
+K RTC, I2C
+$ENDCMP
+#
+$CMP BTS4142
+D Smart High-Side Power Switch PROFET One Channel
+K infineon power switch
+F http://www.infineon.com/dgdl/Infineon-BTS50080-1TEA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435f2d2115b
+$ENDCMP
+#
+$CMP BTS5120-2EKA
+D Smart High-Side Power Switch PROFET One Channel
+K infineon power switch
+F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
 $ENDCMP
 #
 $CMP CAN_Filter_Choke
@@ -267,6 +335,16 @@ $CMP ST485
 D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
 K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
+$CMP Si8602
+D 2 channel I2C bus digital isolator, SOIC8
+K Galvonic Isolation, I2C 
+$ENDCMP
+#
+$CMP SuperCap
+D Super capacitor
+K super cap capacitor
 $ENDCMP
 #
 $CMP TLC271
