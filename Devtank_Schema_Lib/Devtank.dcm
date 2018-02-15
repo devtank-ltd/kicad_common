@@ -193,6 +193,11 @@ D Connector, double row, 02x12
 K connector
 $ENDCMP
 #
+$CMP BAS21
+D BAS21 Diode
+K diode BAS21
+$ENDCMP
+#
 $CMP BQ32000
 D Real Time Clock with battery backup and trickle charger
 K RTC, I2C
