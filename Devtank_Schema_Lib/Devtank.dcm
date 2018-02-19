@@ -352,6 +352,11 @@ D Super capacitor
 K super cap capacitor
 $ENDCMP
 #
+$CMP TCA9406
+D 2 channel I2C bus voltage translator
+K voltage translator, I2C 
+$ENDCMP
+#
 $CMP TLC271
 D Single Dual Supply Op amp.
 K AmpliOp
