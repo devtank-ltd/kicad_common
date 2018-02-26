@@ -80,6 +80,11 @@ $CMP +CM_VDAC
 K POWER, PWR
 $ENDCMP
 #
+$CMP -12V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP -2V5
 K POWER, PWR
 $ENDCMP
@@ -87,7 +92,6 @@ $ENDCMP
 $CMP -5V
 K POWER, PWR
 $ENDCMP
-#
 #
 $CMP 1-5145154-2
 D 120 Pin HILTOP Backplane Connector
@@ -268,6 +272,11 @@ D Current shunt Monitor 2.7V to 40V
 K Current shunt amplifier
 $ENDCMP
 #
+$CMP INA226
+D Current shunt Monitor I2C 0V to 36V High Accuracy Bi-directional
+K Current shunt amplifier
+$ENDCMP
+#
 $CMP ISO1050
 D Isolated CAN Transceiver, SO8
 K Galvonic Isolation, CAN Transceiver
@@ -306,6 +315,11 @@ $CMP NCS20032
 D Dual OpAmp
 K OpAmp
 F ns/lm193.pdf
+$ENDCMP
+#
+$CMP NL17SZ14
+D Inverting Schmitt Trigger
+K Inverting Schmitt Trigger
 $ENDCMP
 #
 $CMP NL17SZ17
