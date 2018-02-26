@@ -88,6 +88,11 @@ $CMP -5V
 K POWER, PWR
 $ENDCMP
 #
+#
+$CMP 1-5145154-2
+D 120 Pin HILTOP Backplane Connector
+$ENDCMP
+#
 $CMP 12V_GND
 D GROUND power-flag symbol
 K Power Flag Symbol
@@ -329,6 +334,11 @@ $ENDCMP
 $CMP RJ45-TRANS_VALCON
 D RJ45 with transformer + leds WURTH
 K RJ45
+$ENDCMP
+#
+$CMP SP3003-02XJ
+D TVS Didode Array Low Leakage 8KV USB2 HDMI DVI ESD 8kV
+K TVS Didode Array Low Leakage 8KV USB2 HDMI DVI ESD 8kV
 $ENDCMP
 #
 $CMP SPST-NO
