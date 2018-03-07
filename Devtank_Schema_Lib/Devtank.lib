@@ -1188,7 +1188,7 @@ ENDDEF
 #
 # BeagleBone_Black_Header
 #
-DEF ~BeagleBone_Black_Header P 0 1 Y N 3 L N
+DEF ~BeagleBone_Black_Header P 0 1 Y N 4 L N
 F0 "P" 0 1200 50 H I C CNN
 F1 "BeagleBone_Black_Header" 0 50 50 V I C CNN
 F2 "" 0 -850 60 H V C CNN
@@ -1301,6 +1301,9 @@ X ~ D.3 -250 900 150 R 50 50 3 1 P
 X ~ D.4 -250 800 150 R 50 50 3 1 P
 X P9 D.5 -250 700 150 R 50 50 3 1 P
 X P11 D.6 -250 600 150 R 50 50 3 1 P
+T 0 0 1225 60 0 4 1 MOUNTING~HOLES Normal 0 C C
+S -100 1150 100 1050 4 1 0 N
+X GND 47 -300 1100 200 R 50 50 4 1 P
 ENDDRAW
 ENDDEF
 #
