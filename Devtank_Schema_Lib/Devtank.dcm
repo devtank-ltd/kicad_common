@@ -189,6 +189,10 @@ $CMP ADIS16203CCCZ
 D ADIS16203CCCZ Digital Inclinometer
 $ENDCMP
 #
+$CMP ADJ_DC
+K POWER, PWR
+$ENDCMP
+#
 $CMP ADP1720
 D 50mA, High Voltage Micropower Linear Regulator
 $ENDCMP
