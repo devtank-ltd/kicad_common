@@ -307,6 +307,11 @@ D Isolated CAN Transceiver, SO8
 K Galvonic Isolation, CAN Transceiver
 $ENDCMP
 #
+$CMP ISO3080
+D Isolated RS485 Full Duplex Transciever, 16 SOIC
+K Isolated RS485 Full Duplex Transciever 2500V Isolation
+$ENDCMP
+#
 $CMP LM22670
 D 3A DC-DC Step Down Simple Switcher Regulator
 K 3A DC-DC Step down switcher regulator
