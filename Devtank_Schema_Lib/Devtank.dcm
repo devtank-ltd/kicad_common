@@ -65,11 +65,6 @@ $CMP +3V3_SATA_D
 K POWER, PWR
 $ENDCMP
 #
-$CMP +3V3_XBEE
-D power-flag symbol +3.3V
-K Power Flag Symbol
-$ENDCMP
-#
 $CMP +5V_ISO1
 K POWER, PWR
 $ENDCMP
@@ -297,6 +292,11 @@ $CMP GND_ISO4
 K POWER, PWR
 $ENDCMP
 #
+$CMP HE751A0500
+D Reed Relay, Single Pole Relay SPST-NO, 500Ohm, 500mA, 5V, 300V
+K Single Pole Reed Relay SPST-NO 500Ohm 500mA 5V 300V
+$ENDCMP
+#
 $CMP INA139
 D Current shunt Monitor 2.7V to 40V
 K Current shunt amplifier
@@ -312,11 +312,6 @@ D Isolated CAN Transceiver, SO8
 K Galvonic Isolation, CAN Transceiver
 $ENDCMP
 #
-$CMP ISO3080
-D Isolated RS485 Full Duplex Transciever, 16 SOIC
-K Isolated RS485 Full Duplex Transciever 2500V Isolation
-$ENDCMP
-#
 $CMP LM22670
 D 3A DC-DC Step Down Simple Switcher Regulator
 K 3A DC-DC Step down switcher regulator
@@ -329,11 +324,6 @@ $ENDCMP
 $CMP Lattice_ice40-HX8KBreakoutBoard
 D Connector ice40 daughterboard
 K connector
-$ENDCMP
-#
-$CMP MAX8815A
-D 12-bit analog to digital converter, 4 inputs, I2C interface
-K adc spi quad double
 $ENDCMP
 #
 $CMP MC74VHC1GT14
@@ -453,10 +443,6 @@ $ENDCMP
 $CMP VO14642AT
 D 60V, 2A Solid State Relay
 K SS
-$ENDCMP
-#
-$CMP XBP24CZ7SIT-004
-D Xbee Module
 $ENDCMP
 #
 #End Doc Library
