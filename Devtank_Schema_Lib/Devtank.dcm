@@ -65,6 +65,11 @@ $CMP +3V3_SATA_D
 K POWER, PWR
 $ENDCMP
 #
+$CMP +3V3_XBEE
+D power-flag symbol +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +5V_ISO1
 K POWER, PWR
 $ENDCMP
@@ -326,6 +331,11 @@ D Connector ice40 daughterboard
 K connector
 $ENDCMP
 #
+$CMP MAX8815A
+D 12-bit analog to digital converter, 4 inputs, I2C interface
+K adc spi quad double
+$ENDCMP
+#
 $CMP MC74VHC1GT14
 D Hex Inverseur
 K HCTMOS not inv
@@ -443,6 +453,10 @@ $ENDCMP
 $CMP VO14642AT
 D 60V, 2A Solid State Relay
 K SS
+$ENDCMP
+#
+$CMP XBP24CZ7SIT-004
+D Xbee Module
 $ENDCMP
 #
 #End Doc Library
