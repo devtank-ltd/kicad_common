@@ -1,4 +1,4 @@
-(module XBP24CZ7SIT-004 (layer F.Cu) (tedit 5B203071)
+(module XBP24CZ7SIT-004 (layer F.Cu) (tedit 5B215AC9)
   (tags "XBP24CZ7SIT-004 Zigbee Module")
   (fp_text reference REF** (at 0.8255 -9.525) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -52,7 +52,7 @@
   (pad 19 thru_hole circle (at 0 16) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 21.9964 16) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 20 thru_hole circle (at 0 18) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 21.9964 18) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at 21.9964 18) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Module.3dshapes/Adafruit_HUZZAH_ESP8266_breakout.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
