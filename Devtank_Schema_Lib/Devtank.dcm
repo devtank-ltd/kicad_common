@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V_EXT
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +1V1_SATA
 K POWER, PWR
 $ENDCMP
@@ -241,6 +246,12 @@ D Real Time Clock with battery backup and trickle charger
 K RTC, I2C
 $ENDCMP
 #
+$CMP BRT23F
+D Zero Cross Opto-Triac, Vdrm 250V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
 $CMP BTS4142
 D Smart High-Side Power Switch PROFET One Channel
 K infineon power switch
@@ -278,6 +289,11 @@ $CMP EMI_Filter_CommonMode
 D EMI 2-inductor common-mode-filter
 K EMI common mode filter
 F ~
+$ENDCMP
+#
+$CMP FDC6324L
+D Integrated Load Switch, 20V, 1.5A
+K Integrated Load Switch, 20V, 1.5A
 $ENDCMP
 #
 $CMP GND_ISO1
