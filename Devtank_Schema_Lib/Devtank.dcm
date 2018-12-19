@@ -402,7 +402,7 @@ $ENDCMP
 #
 $CMP Si8602
 D 2 channel I2C bus digital isolator, SOIC8
-K Galvonic Isolation, I2C 
+K Galvonic Isolation, I2C
 $ENDCMP
 #
 $CMP SuperCap
@@ -412,7 +412,7 @@ $ENDCMP
 #
 $CMP TCA9406
 D 2 channel I2C bus voltage translator
-K voltage translator, I2C 
+K voltage translator, I2C
 $ENDCMP
 #
 $CMP TLC271
