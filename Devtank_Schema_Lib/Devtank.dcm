@@ -346,6 +346,11 @@ D Connector ice40 daughterboard
 K connector
 $ENDCMP
 #
+$CMP MAX3107
+D MAX 3107 SPI/I2C UART with 128-Word FIFO
+K MAX 3107 SPI/I2C UART with 128-Word FIFO
+$ENDCMP
+#
 $CMP MC74VHC1GT14
 D Hex Inverseur
 K HCTMOS not inv
