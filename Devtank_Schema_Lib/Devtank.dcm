@@ -94,6 +94,14 @@ $CMP +5V_STBY
 K POWER, PWR
 $ENDCMP
 #
+$CMP +5V_USB
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_WELD
+K POWER, PWR
+$ENDCMP
+#
 $CMP +CM_1V8
 K POWER, PWR
 $ENDCMP
@@ -107,6 +115,10 @@ K POWER, PWR
 $ENDCMP
 #
 $CMP +CM_VDAC
+K POWER, PWR
+$ENDCMP
+#
+$CMP +VBAT
 K POWER, PWR
 $ENDCMP
 #
@@ -355,6 +367,11 @@ $ENDCMP
 $CMP MAX3107
 D MAX 3107 SPI/I2C UART with 128-Word FIFO
 K MAX 3107 SPI/I2C UART with 128-Word FIFO
+$ENDCMP
+#
+$CMP MAX9919
+D -20V to +75V Input, precision uni/bi-directional current sense amplifier
+K -20V to +75V Input, precision uni/bi-directional current sense amplifier
 $ENDCMP
 #
 $CMP MC74VHC1GT14
