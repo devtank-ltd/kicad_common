@@ -89,6 +89,14 @@ $CMP +5V_STBY
 K POWER, PWR
 $ENDCMP
 #
+$CMP +5V_USB
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_WELD
+K POWER, PWR
+$ENDCMP
+#
 $CMP +CM_1V8
 K POWER, PWR
 $ENDCMP
@@ -102,6 +110,10 @@ K POWER, PWR
 $ENDCMP
 #
 $CMP +CM_VDAC
+K POWER, PWR
+$ENDCMP
+#
+$CMP +VBAT
 K POWER, PWR
 $ENDCMP
 #
@@ -330,6 +342,11 @@ D Connector ice40 daughterboard
 K connector
 $ENDCMP
 #
+$CMP MAX9919
+D -20V to +75V Input, precision uni/bi-directional current sense amplifier
+K -20V to +75V Input, precision uni/bi-directional current sense amplifier
+$ENDCMP
+#
 $CMP MC74VHC1GT14
 D Hex Inverseur
 K HCTMOS not inv
@@ -402,7 +419,7 @@ $ENDCMP
 #
 $CMP Si8602
 D 2 channel I2C bus digital isolator, SOIC8
-K Galvonic Isolation, I2C 
+K Galvonic Isolation, I2C
 $ENDCMP
 #
 $CMP SuperCap
@@ -412,7 +429,7 @@ $ENDCMP
 #
 $CMP TCA9406
 D 2 channel I2C bus voltage translator
-K voltage translator, I2C 
+K voltage translator, I2C
 $ENDCMP
 #
 $CMP TLC271
