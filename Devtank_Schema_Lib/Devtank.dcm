@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V_BP
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +12V_EXT
 D power-flag symbol
 K Power Flag Symbol
@@ -71,6 +76,10 @@ K POWER, PWR
 $ENDCMP
 #
 $CMP +3V3_SATA_D
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_BP
 K POWER, PWR
 $ENDCMP
 #
