@@ -194,6 +194,12 @@ K Single D Flip-Flop D CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74LVXC4245
+D Octal BUS Transceivers, 3-State outputs
+K TTL Voltage Interface Transceiver BUS 3State
+F http://www.farnell.com/datasheets/2287850.pdf?_ga=2.38909475.165700208.1540825943-1809652885.1474229959
+$ENDCMP
+#
 $CMP AD7328
 D 8-Channel, True Bipolar, 12-Bit ADC, SPI Bus, TSSOP-20
 K adc 8ch 12bit SPI
@@ -318,6 +324,10 @@ K EMI common mode filter
 F ~
 $ENDCMP
 #
+$CMP EXT_IO_PWR
+K POWER, PWR
+$ENDCMP
+#
 $CMP FDC6324L
 D Integrated Load Switch, 20V, 1.5A
 K Integrated Load Switch, 20V, 1.5A
@@ -371,6 +381,12 @@ $ENDCMP
 $CMP Lattice_ice40-HX8KBreakoutBoard
 D Connector ice40 daughterboard
 K connector
+$ENDCMP
+#
+$CMP MC14504B
+D HEX BUS Level Shifter
+K TTL to CMOS Voltage Level Shifter
+F http://www.farnell.com/datasheets/1840541.pdf?_ga=2.201507793.1527241816.1541066663-1809652885.1474229959
 $ENDCMP
 #
 $CMP MAX3107
@@ -480,6 +496,12 @@ D 2 channel I2C bus voltage translator
 K voltage translator, I2C
 $ENDCMP
 #
+$CMP TCA9517
+D 2 channel I2C bus voltage buffer
+K voltage translator buffer, I2C
+F http://www.ti.com/lit/ds/symlink/tca9517.pdf
+$ENDCMP
+#
 $CMP TLC271
 D Single Dual Supply Op amp.
 K AmpliOp
@@ -493,6 +515,12 @@ $ENDCMP
 $CMP TUSB9261
 D USB 3.0 SATA BRIDGE IC
 K USB SATA BRIDGE
+$ENDCMP
+#
+$CMP TXS0108E
+D 8-bit bidirectional voltage level translator with auto-direction sensing
+K bidirectional voltage level translator
+F http://www.ti.com/lit/ds/symlink/txs0108e.pdf
 $ENDCMP
 #
 $CMP USB2517
