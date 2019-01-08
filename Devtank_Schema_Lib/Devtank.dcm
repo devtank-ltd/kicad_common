@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V_EXT
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +1V1_SATA
 K POWER, PWR
 $ENDCMP
@@ -89,6 +94,14 @@ $CMP +5V_STBY
 K POWER, PWR
 $ENDCMP
 #
+$CMP +5V_USB
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_WELD
+K POWER, PWR
+$ENDCMP
+#
 $CMP +CM_1V8
 K POWER, PWR
 $ENDCMP
@@ -102,6 +115,10 @@ K POWER, PWR
 $ENDCMP
 #
 $CMP +CM_VDAC
+K POWER, PWR
+$ENDCMP
+#
+$CMP +VBAT
 K POWER, PWR
 $ENDCMP
 #
@@ -247,6 +264,12 @@ D Real Time Clock with battery backup and trickle charger
 K RTC, I2C
 $ENDCMP
 #
+$CMP BRT23F
+D Zero Cross Opto-Triac, Vdrm 250V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
 $CMP BTS4142
 D Smart High-Side Power Switch PROFET One Channel
 K infineon power switch
@@ -270,6 +293,12 @@ D Connector, double row, 02x08, pin header
 K connector
 $ENDCMP
 #
+$CMP Conn_03x32_DIN41612
+D DIN41612 connector, three rows, 03x32
+K connector
+F ~
+$ENDCMP
+#
 $CMP DB50_MALE_MountingHoles
 D 50-pin male D-SUB connector, Mounting Hole
 K male D-SUB connector
@@ -288,6 +317,11 @@ $ENDCMP
 #
 $CMP EXT_IO_PWR
 K POWER, PWR
+$ENDCMP
+#
+$CMP FDC6324L
+D Integrated Load Switch, 20V, 1.5A
+K Integrated Load Switch, 20V, 1.5A
 $ENDCMP
 #
 $CMP GND_ISO1
@@ -346,6 +380,16 @@ K TTL to CMOS Voltage Level Shifter
 F http://www.farnell.com/datasheets/1840541.pdf?_ga=2.201507793.1527241816.1541066663-1809652885.1474229959
 $ENDCMP
 #
+$CMP MAX3107
+D MAX 3107 SPI/I2C UART with 128-Word FIFO
+K MAX 3107 SPI/I2C UART with 128-Word FIFO
+$ENDCMP
+#
+$CMP MAX9919
+D -20V to +75V Input, precision uni/bi-directional current sense amplifier
+K -20V to +75V Input, precision uni/bi-directional current sense amplifier
+$ENDCMP
+#
 $CMP MC74VHC1GT14
 D Hex Inverseur
 K HCTMOS not inv
@@ -398,6 +442,18 @@ $ENDCMP
 $CMP RJ45-TRANS_VALCON
 D RJ45 with transformer + leds WURTH
 K RJ45
+$ENDCMP
+#
+$CMP SN75160BDWR
+D 8 Channel Bidrectional Transceiver, IEEE 488-1978
+K 8 Channel Bidrectional Transceiver, IEEE 488-1978
+F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
+$ENDCMP
+#
+$CMP SN75162BDWR
+D 8 Channel Bidrectional Transceiver, IEEE 488-1978
+K 8 Channel Bidrectional Transceiver, IEEE 488-1978
+F http://www.ti.com/lit/ds/symlink/sn75161b.pdf
 $ENDCMP
 #
 $CMP SP3003-02XJ
