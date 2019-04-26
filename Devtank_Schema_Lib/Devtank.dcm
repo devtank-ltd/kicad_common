@@ -42,12 +42,30 @@ $CMP +1V2_USB_PLL
 K POWER, PWR
 $ENDCMP
 #
+$CMP +1V8_ETHPLL
+D power-flag symbol +1.8V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +1V8_SATA
 D power-flag symbol +1.8V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +1V8_USBPLL
+D power-flag symbol +1.8V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +2V5_LAN_A
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_A
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_BP
 K POWER, PWR
 $ENDCMP
 #
@@ -68,6 +86,10 @@ K POWER, PWR
 $ENDCMP
 #
 $CMP +3V3_LAN_A
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_LOC
 K POWER, PWR
 $ENDCMP
 #
@@ -141,6 +163,10 @@ K POWER, PWR
 $ENDCMP
 #
 $CMP -5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -5V_BP
 K POWER, PWR
 $ENDCMP
 #
@@ -279,6 +305,11 @@ K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
 $ENDCMP
 #
+$CMP BTS4140N
+D Smart High-Side Power Switch PROFET One Channel
+K infineon power switch
+$ENDCMP
+#
 $CMP BTS4142
 D Smart High-Side Power Switch PROFET One Channel
 K infineon power switch
@@ -308,6 +339,11 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP DB44_MALE_MountingHoles
+D 50-pin male D-SUB connector, Mounting Hole
+K male D-SUB connector
+$ENDCMP
+#
 $CMP DB50_MALE_MountingHoles
 D 50-pin male D-SUB connector, Mounting Hole
 K male D-SUB connector
@@ -325,6 +361,14 @@ F ~
 $ENDCMP
 #
 $CMP EXT_IO_PWR
+K POWER, PWR
+$ENDCMP
+#
+$CMP EXT_IO_PWR_A
+K POWER, PWR
+$ENDCMP
+#
+$CMP EXT_IO_PWR_B
 K POWER, PWR
 $ENDCMP
 #
@@ -369,6 +413,10 @@ D Isolated CAN Transceiver, SO8
 K Galvonic Isolation, CAN Transceiver
 $ENDCMP
 #
+$CMP LAN9513
+D LAN9513
+$ENDCMP
+#
 $CMP LM22670
 D 3A DC-DC Step Down Simple Switcher Regulator
 K 3A DC-DC Step down switcher regulator
@@ -383,12 +431,6 @@ D Connector ice40 daughterboard
 K connector
 $ENDCMP
 #
-$CMP MC14504B
-D HEX BUS Level Shifter
-K TTL to CMOS Voltage Level Shifter
-F http://www.farnell.com/datasheets/1840541.pdf?_ga=2.201507793.1527241816.1541066663-1809652885.1474229959
-$ENDCMP
-#
 $CMP MAX3107
 D MAX 3107 SPI/I2C UART with 128-Word FIFO
 K MAX 3107 SPI/I2C UART with 128-Word FIFO
@@ -397,6 +439,12 @@ $ENDCMP
 $CMP MAX9919
 D -20V to +75V Input, precision uni/bi-directional current sense amplifier
 K -20V to +75V Input, precision uni/bi-directional current sense amplifier
+$ENDCMP
+#
+$CMP MC14504B
+D HEX BUS Level Shifter
+K TTL to CMOS Voltage Level Shifter
+F http://www.farnell.com/datasheets/1840541.pdf?_ga=2.201507793.1527241816.1541066663-1809652885.1474229959
 $ENDCMP
 #
 $CMP MC74VHC1GT14
@@ -523,7 +571,7 @@ K bidirectional voltage level translator
 F http://www.ti.com/lit/ds/symlink/txs0108e.pdf
 $ENDCMP
 #
-$CMP USB2517
+$CMP USB2517_0
 D USB2517
 $ENDCMP
 #
