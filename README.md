@@ -1,7 +1,10 @@
-KiCAD Notes
+Copyright Devtank Ltd 2019
+==========================
+
+KiCAD Setup Notes
 ===========
 
-The following guide decribes how to setup a new project in KiCAD which will allow source version control in a git repository and on demand access to the latest Devtank libaries over a network connection. Master repostiories for both Devtank libraries and individual KiCAD design projects will be retained on the Devtank server PC and the following instructions allow easy syncronisation/backup with these folders using git whilst allowing local development on each user’s PC.
+The following guide decribes our Devtank company procedure to setup a new project in KiCAD which will allow source version control in a git repository and on demand access to the latest Devtank libaries over a network connection. Master repostiories for both Devtank libraries and individual KiCAD design projects will be retained on the Devtank server PC and the following instructions allow easy syncronisation/backup with these folders using git whilst allowing local development on each user’s PC.
 
 KiCad File formats described here:
 
@@ -68,7 +71,7 @@ Step 4
 
 Add git remote repository for backup and sharing.
 
-**(Ask Joe/IT for new git repo on the server. In this example it's "my_new_kicad_project")**
+**(Ask IT for new git repo on the corporate server (and/or create a new github repository). In this example it's "my_new_kicad_project")**
 
     git remote add origin ssh.devtank.co.uk:/git/my_new_kicad_project
     git push -u origin master # Push new git project to new empty git on server.
@@ -79,7 +82,7 @@ Cloning an existing project
 
 To checkout an existing project afresh do:
 
-    git clone ssh.devtank.co.uk:/git/my_new_kicad_project
+    git clone --recursive ssh.devtank.co.uk:/git/my_new_kicad_project
     cd my_new_kicad_project
     git submodule init
     git submodule update
