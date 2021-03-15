@@ -459,6 +459,11 @@ D Connector ice40 daughterboard
 K connector
 $ENDCMP
 #
+$CMP M74VHC1GT14DFT2G_SCHMITT_TRIGGER_INVERTER
+D Inverting Schmitt Trigger
+K Inverting Schmitt Trigger
+$ENDCMP
+#
 $CMP MAX3107
 D MAX 3107 SPI/I2C UART with 128-Word FIFO
 K MAX 3107 SPI/I2C UART with 128-Word FIFO
