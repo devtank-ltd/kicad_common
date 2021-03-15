@@ -61,6 +61,11 @@ $CMP +2V5_LAN_A
 K POWER, PWR
 $ENDCMP
 #
+$CMP +3.3V_copy
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
 $CMP +3V3_A
 K POWER, PWR
 $ENDCMP
@@ -99,6 +104,11 @@ $ENDCMP
 #
 $CMP +3V3_SATA_D
 K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_SD
+D Power symbol creates a global label with name "+3V3"
+K power-flag
 $ENDCMP
 #
 $CMP +5V_BP
@@ -211,6 +221,12 @@ $ENDCMP
 $CMP 74LVC1G08
 D Single AND Gate, Low-Voltage CMOS
 K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G3157
+D SPDT Analog Swich, Low-Voltage CMOS
+K SPDT Analog Switch CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -328,6 +344,12 @@ K EMI filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
 $ENDCMP
 #
+$CMP CM1624
+D 6 channel EMI filters for uSD Protection
+K EMI, ESD protection
+F https://www.onsemi.com/pub/Collateral/CM1624-D.PDF
+$ENDCMP
+#
 $CMP CONN_02X08
 D Connector, double row, 02x08, pin header
 K connector
@@ -420,6 +442,12 @@ $ENDCMP
 $CMP LM22670
 D 3A DC-DC Step Down Simple Switcher Regulator
 K 3A DC-DC Step down switcher regulator
+$ENDCMP
+#
+$CMP LM317_SOT-223
+D 100mA 35V Adjustable Linear Regulator, TO-92
+K Adjustable Voltage Regulator 100mA Positive
+F http://www.ti.com/lit/ds/slvs044x/slvs044x.pdf
 $ENDCMP
 #
 $CMP LM95071CIMF
