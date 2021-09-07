@@ -562,6 +562,24 @@ K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP STM32L451RCTx
+D Core: ARM Cortex-M4, Package: LQFP64, Flash: 256 kB, RAM: 128 kB, Frequency: 80 MHz, Voltage: 1.71..3.6V, I/O pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476RETx
+D Core: ARM Cortex-M4, Package: LQFP64, Flash: 256 kB, RAM: 128 kB, Frequency: 80 MHz, Voltage: 1.71..3.6V, I/O pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476RGTx
+D Core: ARM Cortex-M4, Package: LQFP64, Flash: 256 kB, RAM: 128 kB, Frequency: 80 MHz, Voltage: 1.71..3.6V, I/O pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
 $CMP Si8602
 D 2 channel I2C bus digital isolator, SOIC8
 K Galvonic Isolation, I2C
