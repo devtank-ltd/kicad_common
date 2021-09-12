@@ -376,6 +376,36 @@ D 5 pins connector, 41524
 K connector DIN 5-pins 41524
 $ENDCMP
 #
+$CMP DS1821C
+D Programmable Digital Thermostat and Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
+$ENDCMP
+#
+$CMP DS1822
+D Econo 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS18B20
+D Programmable Resolution 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20+
+D 1-Wire Ambient Temperature Sensor, TO-92
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
+$ENDCMP
+#
+$CMP DS18S20
+D High-Precision 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
 $CMP EMI_Filter_CommonMode
 D EMI 2-inductor common-mode-filter
 K EMI common mode filter
