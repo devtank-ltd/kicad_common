@@ -515,6 +515,12 @@ D Hex Inverseur
 K HCTMOS not inv
 $ENDCMP
 #
+$CMP MCP2551-I-P
+D High-Speed CAN Transceiver, 1Mbps, 5V supply, PDIP8 package
+K High-Speed CAN Transceiver
+F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
+$ENDCMP
+#
 $CMP MCP4725
 D 12-bit digital to analog converter, I2C interface
 K DAC I2C single
