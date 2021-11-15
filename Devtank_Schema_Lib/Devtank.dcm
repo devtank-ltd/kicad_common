@@ -412,6 +412,12 @@ K EMI common mode filter
 F ~
 $ENDCMP
 #
+$CMP ESDA6V1W5
+D TVS Diode Array, 5.5V Standoff, 4 Channels, SC-70-5 package
+K usb esd protection suppression transient
+F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
+$ENDCMP
+#
 $CMP EXT_IO_PWR
 K POWER, PWR
 $ENDCMP
