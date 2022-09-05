@@ -34,6 +34,15 @@ Create git controlled folder for new project and add common Kicad libraries.
     
     git submodule add ssh.devtank.co.uk:/git/kicad_devtank_common common
 
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+mkdir my_new_project
+cd my_new_project
+git init
+
+git submodule add ssh.devtank.co.uk:/git/kicad_devtank_common common
+---!>
 
 Step 2
 ------
@@ -47,9 +56,27 @@ This step creates a file used by git to filter out unneccesary files being archi
     *.bak
     *.bck
     *.kicad_pcb-bak
+    *.kicad_sch-bak
+    */*-backups/*.zip
     ~*" > .gitignore
     git add .gitignore\
     git commit -a -m "Setup common libraries for my Kicad project."
+
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+echo "# export files for BOM
+*.tsv
+# backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*/*-backups/*.zip
+~*" > .gitignore
+git add .gitignore\
+git commit -a -m "Setup common libraries for my Kicad project."
+---!>
 
 
 Step 3
@@ -65,6 +92,15 @@ Create a new Kicad project from common template.
     git add CrazyProject
     git commit -a -m "Add Kicad project files."*
 
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+cp -r common/NewProject_template CrazyProject
+
+git add CrazyProject
+git commit -a -m "Add Kicad project files."*
+---!>
+
 
 Step 4
 --------
@@ -75,6 +111,13 @@ Add git remote repository for backup and sharing.
 
     git remote add origin ssh.devtank.co.uk:/git/my_new_kicad_project
     git push -u origin master # Push new git project to new empty git on server.
+
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+git remote add origin ssh.devtank.co.uk:/git/my_new_kicad_project
+git push -u origin master # Push new git project to new empty git on server.
+---!>
 
 
 Cloning an existing project
@@ -87,6 +130,16 @@ To checkout an existing project afresh do:
     git submodule init
     git submodule update
 
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+git clone --recursive ssh.devtank.co.uk:/git/my_new_kicad_project
+cd my_new_kicad_project
+git submodule init
+git submodule update
+---!>
+
+
 Updating an existing project
 ----------------------------
 
@@ -94,6 +147,14 @@ Updating an existing project
 
     git pull
     git submodule update
+
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+git pull
+git submodule update
+---!>
+
 
 Updating the common Devtank libaries used
 -----------------------------------------
@@ -104,6 +165,13 @@ Updating the common Devtank libaries used
     git submodule sync
     # Open Kicad do anything required.
     git commit -a -m "Updated to latest common libraries for feature foobar."
+
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+git submodule sync
+git commit -a -m "Updated to latest common libraries for feature foobar."
+---!>
 
 
 Updating the master Project
@@ -119,6 +187,13 @@ To commit local changes to the project do:
     git commit -a -m "My changes to my project."
     git push # Push changes to central repo.*
 
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+git add * # Make sure any new files are added.
+git commit -a -m "My changes to my project."
+git push # Push changes to central repo.*
+---!>
 
 
 Updating master common Library
@@ -136,3 +211,12 @@ To commit local changes to the common libraries do:
     git add * # Make sure any new files are added.
     git commit -a -m "What my changes to the common libraries where."
     git push # Push changes to central repo.
+
+<!---
+If reading this with a text editor, remove prefixing spaces before entering commands:
+
+cd common
+git add * # Make sure any new files are added.
+git commit -a -m "What my changes to the common libraries where."
+git push # Push changes to central repo.
+---!>
