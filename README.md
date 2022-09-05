@@ -42,7 +42,7 @@ cd my_new_project
 git init
 
 git submodule add ssh.devtank.co.uk:/git/kicad_devtank_common common
----!>
+--->
 
 Step 2
 ------
@@ -76,7 +76,7 @@ echo "# export files for BOM
 ~*" > .gitignore
 git add .gitignore\
 git commit -a -m "Setup common libraries for my Kicad project."
----!>
+--->
 
 
 Step 3
@@ -99,7 +99,7 @@ cp -r common/NewProject_template CrazyProject
 
 git add CrazyProject
 git commit -a -m "Add Kicad project files."*
----!>
+--->
 
 
 Step 4
@@ -117,7 +117,7 @@ If reading this with a text editor, remove prefixing spaces before entering comm
 
 git remote add origin ssh.devtank.co.uk:/git/my_new_kicad_project
 git push -u origin master # Push new git project to new empty git on server.
----!>
+--->
 
 
 Cloning an existing project
@@ -137,7 +137,7 @@ git clone --recursive ssh.devtank.co.uk:/git/my_new_kicad_project
 cd my_new_kicad_project
 git submodule init
 git submodule update
----!>
+--->
 
 
 Updating an existing project
@@ -153,7 +153,7 @@ If reading this with a text editor, remove prefixing spaces before entering comm
 
 git pull
 git submodule update
----!>
+--->
 
 
 Updating the common Devtank libaries used
@@ -171,7 +171,7 @@ If reading this with a text editor, remove prefixing spaces before entering comm
 
 git submodule sync
 git commit -a -m "Updated to latest common libraries for feature foobar."
----!>
+--->
 
 
 Updating the master Project
@@ -193,7 +193,7 @@ If reading this with a text editor, remove prefixing spaces before entering comm
 git add * # Make sure any new files are added.
 git commit -a -m "My changes to my project."
 git push # Push changes to central repo.*
----!>
+--->
 
 
 Updating master common Library
@@ -219,4 +219,4 @@ cd common
 git add * # Make sure any new files are added.
 git commit -a -m "What my changes to the common libraries where."
 git push # Push changes to central repo.
----!>
+--->
