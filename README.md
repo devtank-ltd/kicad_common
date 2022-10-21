@@ -55,6 +55,7 @@ This step creates a file used by git to filter out unneccesary files being archi
     # backup files
     *.bak
     *.bck
+    *.sch-bak
     *.kicad_pcb-bak
     *.kicad_sch-bak
     */*-backups/*.zip
@@ -70,6 +71,7 @@ echo "# export files for BOM
 # backup files
 *.bak
 *.bck
+*.sch-bak
 *.kicad_pcb-bak
 *.kicad_sch-bak
 */*-backups/*.zip
