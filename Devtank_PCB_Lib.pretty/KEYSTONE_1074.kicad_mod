@@ -29,8 +29,8 @@
   (fp_line (start -6.5 4.95) (end -6.5 -1.15) (layer "F.Fab") (width 0.2) (tstamp 8d3c4769-b63d-40b4-813a-ebbee29e2145))
   (fp_line (start 16.5 -1.15) (end 16.5 4.95) (layer "F.Fab") (width 0.2) (tstamp e6ec2bd1-d08b-4438-8d5f-1eed530fb0cb))
   (pad "1" thru_hole circle (at 0 0) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask) (tstamp 136b220b-6cab-4b74-84d6-b3e66113a3ed))
+  (pad "1" thru_hole circle (at 10 0) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask) (tstamp b958012c-8c9c-49c9-b3cc-a2907e333a77))
   (pad "2" thru_hole circle (at 5 3.8) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask) (tstamp 5ef0d647-74c3-4ee7-bcc1-198a6a3f71a9))
-  (pad "3" thru_hole circle (at 10 0) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask) (tstamp b958012c-8c9c-49c9-b3cc-a2907e333a77))
   (model "/home/adil/Documents/Hiltop/Motheboard Re-design v2/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/keystone_1074.stp"
     (offset (xyz 5 -2 14.25))
     (scale (xyz 1 1 1))
