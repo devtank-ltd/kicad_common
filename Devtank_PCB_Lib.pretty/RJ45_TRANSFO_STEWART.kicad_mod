@@ -39,7 +39,7 @@
   (pad "16" thru_hole circle (at 2.82 12.95) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask) (tstamp d7329acd-17c3-4a74-b9a9-7ace06a42c1a))
   (pad "Hole" thru_hole circle (at 1.91 8.89) (size 3.85 3.85) (drill 3.3) (layers *.Cu *.SilkS *.Mask) (tstamp 614b6f8b-07ad-4e0d-a703-5e789268c10c))
   (pad "Hole" thru_hole circle (at -9.53 8.89) (size 3.85 3.85) (drill 3.3) (layers *.Cu *.SilkS *.Mask) (tstamp 67964ac7-cb8b-422e-b986-b339882e7170))
-  (model "/home/adil/Documents/Hiltop/Motheboard Re-design v2/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/SI-61001-F.STEP"
+  (model "../common/Devtank_models.3dshapes/SI-61001-F.STEP"
     (offset (xyz -3.75 -9 0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

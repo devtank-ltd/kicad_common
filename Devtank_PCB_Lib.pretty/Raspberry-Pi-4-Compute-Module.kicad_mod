@@ -289,7 +289,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "../common/Devtank_models.3dshapes/CM4Lite.step"
+  (model "/home/adil/Documents/Hiltop/Motheboard Re-design v2/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/cm4-minimalist3D.step" hide
     (offset (xyz 52.5 -3.5 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

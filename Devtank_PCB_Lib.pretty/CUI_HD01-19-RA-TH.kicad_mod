@@ -2113,8 +2113,8 @@
   (pad "S2" thru_hole circle (at -11.35 -2.75) (size 1.4 1.4) (drill 0.9) (layers *.Cu) (tstamp d097f7fe-f485-492e-bb86-572a05dc1be6))
   (pad "S3" thru_hole circle (at -8.25 3.75) (size 1.4 1.4) (drill 0.9) (layers *.Cu) (tstamp ebd2322b-8499-4c86-a021-0153cc5d5127))
   (pad "S4" thru_hole circle (at 0.75 3.75) (size 1.4 1.4) (drill 0.9) (layers *.Cu) (tstamp 6c0569e1-1066-4ace-aae8-62c0fa67f931))
-  (model "/home/adil/Documents/Hiltop/Motheboard Re-design v2/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/CUI_DEVICES_HD01-19-RA-TH.step"
-    (offset (xyz -1 -0.5 9))
+  (model "../common/Devtank_models.3dshapes/CUI_DEVICES_HD01-19-RA-TH.step"
+    (offset (xyz -1 -0.25 9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))
   )
