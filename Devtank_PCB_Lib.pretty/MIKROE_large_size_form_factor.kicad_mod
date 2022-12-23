@@ -2458,4 +2458,19 @@
   (pad "14" thru_hole circle (at 22.86 -12.7) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask) (tstamp a915bc8e-6344-4819-944c-d8abe0514d9f))
   (pad "15" thru_hole circle (at 22.86 -15.24) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask) (tstamp 2b82c004-d2fd-46aa-bd86-1b2ed987c1d2))
   (pad "16" thru_hole circle (at 22.86 -17.78) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask) (tstamp e17cff6d-b51f-4d63-9285-88df02c62b9b))
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+    (offset (xyz 0 17.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+    (offset (xyz 22.85 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -180))
+  )
+  (model "../common/Devtank_models.3dshapes/MIKROE_large_size_form_factor.step" hide
+    (offset (xyz 0 0 11))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

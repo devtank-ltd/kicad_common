@@ -26,7 +26,7 @@
   (fp_line (start -3.81 4.445) (end -3.81 -4.445) (layer "F.Fab") (width 0.15) (tstamp 8a78963e-0e5f-496e-93f4-5ae234644cf6))
   (pad "1" smd rect (at -1.8 0) (size 3.3 8.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c1982966-86d2-469d-8d70-d9749f2686e5))
   (pad "2" smd rect (at 3.048 0) (size 3.3 8.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a4f92e98-9948-4fe7-9593-97fe8797b7e6))
-  (model "/home/dsayles/Documents/HILTOP/motherboard/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/VLP8040T-3R3N.stp"
+  (model "../common/Devtank_models.3dshapes/VLP8040T-3R3N.stp"
     (offset (xyz 0.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

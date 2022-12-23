@@ -98,14 +98,19 @@
   (pad "53" thru_hole rect (at -12.1 -48.05) (size 5.8 5.8) (drill 2.6) (layers *.Cu *.Mask) (tstamp 357d9d48-b416-4f60-b699-b9a3c53688f3))
   (pad "53" smd rect (at -14.65 3.5) (size 2.3 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48ce1bc2-0dde-453d-9f8f-656fbab57f08))
   (pad "53" smd rect (at 14.65 3.5) (size 2.3 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ae8d97b2-2043-48b9-8ff9-b6cc674f2e73))
-  (model "/home/adil/Documents/Hiltop/Motheboard Re-design v2/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/679101002_mpcie_connector.stp"
+  (model "../common/Devtank_models.3dshapes/679101002_mpcie_connector.stp"
     (offset (xyz -3.85 -5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/home/adil/Documents/Hiltop/Motheboard Re-design v2/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/RAK2247_mpcie_board.step"
+  (model "../common/Devtank_models.3dshapes/RAK2247_mpcie_board.step"
     (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))
+  )
+  (model "/home/adil/Documents/Hiltop/Motheboard Re-design v2/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/Mini_PCI_Express_Card.STEP" hide
+    (offset (xyz 0 0 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

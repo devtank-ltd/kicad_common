@@ -185,7 +185,7 @@
   (pad "22" thru_hole oval (at 37.8 5.5) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask) (tstamp b7ce43cf-4dd3-4d73-aba4-43221997e71e))
   (pad "23" thru_hole oval (at 42 5.5) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask) (tstamp 1d9a27b7-434e-4a7b-b890-9a67c27beec2))
   (pad "24" thru_hole oval (at 46.2 5.5) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask) (tstamp cb15aed2-4f18-4eb1-9aa5-710cfbf3d585))
-  (model "/home/dsayles/Documents/HILTOP/motherboard/kicad_hiltop_motherboard/common/Devtank_models.3dshapes/5900-W24ST.step"
+  (model "../common/Devtank_models.3dshapes/5900-W24ST.step"
     (offset (xyz 23 -2.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

@@ -29,8 +29,8 @@
   (pad "1" smd rect (at -1.1 0) (size 1 7.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e68c5170-03c3-4a20-abd0-ad610c43d035))
   (pad "2" smd rect (at 1.1 0) (size 1 7.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 92e8f8c3-0985-4c0d-8e38-92cbbf365409))
   (model "../common/Devtank_models.3dshapes/RL7520WT-R015-F.STEP"
-    (offset (xyz 0 0 0.75))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

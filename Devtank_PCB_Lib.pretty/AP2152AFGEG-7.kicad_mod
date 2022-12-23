@@ -37,4 +37,9 @@
   (pad "7" smd roundrect (at 1.39 -0.325) (size 0.92 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03) (tstamp 6b4a6ae6-0aeb-4493-9372-46c7f050f851))
   (pad "8" smd roundrect (at 1.39 -0.975) (size 0.92 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03) (tstamp da8c87c6-665a-446c-9fe0-c4f6276f2b89))
   (pad "9" smd rect (at 0 0) (size 1.5 2.25) (layers "F.Cu" "F.Mask") (tstamp 40f1d9a3-6ecb-4d2b-ae14-6defae3baa27))
+  (model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
