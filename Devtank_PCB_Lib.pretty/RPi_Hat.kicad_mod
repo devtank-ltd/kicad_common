@@ -787,13 +787,13 @@
   (pad "38" thru_hole oval (at 21.59 -25.781 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp c047b694-ef2d-402c-9053-59de2c9e4638))
   (pad "39" thru_hole oval (at 24.13 -23.241 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 2b75f395-b665-4f27-a8a6-d35e2f7573f1))
   (pad "40" thru_hole oval (at 24.13 -25.781 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 93925f96-57bd-4a97-8e76-fc1a7ff7d225))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step"
-    (offset (xyz 24.1 23.25 0))
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical.wrl"
+    (offset (xyz 24.1 25.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model "../common/Devtank_models.3dshapes/RaspberryPiSenseHAT_STEP_AP203.STEP" hide
-    (offset (xyz 10 0 8))
+  (model "../common/Devtank_models.3dshapes/RaspberryPiSenseHAT_STEP_AP203.STEP"
+    (offset (xyz 10 0 9))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
