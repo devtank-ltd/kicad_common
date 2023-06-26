@@ -10,9 +10,10 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8c9f3bc9-4030-47f8-8d84-036e90b6ace7)
   )
-  (fp_rect (start -26 -42) (end 27 42) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 1184dcc1-5fd3-4bdd-a856-90ce6b16074c))
-  (model "/home/adil/Documents/Indra/V2X/kicad_current_source_board/common/Devtank_models.3dshapes/SK487_84_SA.stp"
-    (offset (xyz -23.25 -50 0))
+  (fp_rect (start -25 -42) (end 25 42) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 1184dcc1-5fd3-4bdd-a856-90ce6b16074c))
+  (fp_rect (start -25 -42) (end -27.3 42) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 967b3a8f-621b-4ce4-9f1c-013e3eee8fd1))
+  (model "../common/Devtank_models.3dshapes/SK487_84_SA.stp"
+    (offset (xyz -25 -50 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

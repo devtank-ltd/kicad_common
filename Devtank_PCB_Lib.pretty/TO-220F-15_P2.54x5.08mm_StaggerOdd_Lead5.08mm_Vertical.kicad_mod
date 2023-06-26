@@ -72,7 +72,7 @@
   (pad "13" thru_hole oval (at 15.24 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp db2b69c4-859b-48d9-87d7-86a2e851ae24))
   (pad "14" thru_hole oval (at 16.51 -5.08) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 005cef4c-1704-4105-bef3-91883535480f))
   (pad "15" thru_hole oval (at 17.78 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 67468d73-64a0-4877-9b6e-969c5b8cbe26))
-  (model "/home/adil/Documents/Indra/V2X/kicad_current_source_board/common/Devtank_models.3dshapes/MULTIWATT15_VERTICAL_STM.step"
+  (model "../common/Devtank_models.3dshapes/MULTIWATT15_VERTICAL_STM.step"
     (offset (xyz 0 0 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
