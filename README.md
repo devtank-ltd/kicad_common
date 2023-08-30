@@ -32,7 +32,7 @@ Create git controlled folder for new project and add common Kicad libraries.
     cd my_new_project
     git init
     
-    git submodule add ssh.devtank.co.uk:/git/kicad_devtank_common common
+    ssh://git@git.devtank.co.uk:2222/Devtank/kicad_devtank_common.git
 
 <!---
 If reading this with a text editor, remove prefixing spaces before entering commands:
