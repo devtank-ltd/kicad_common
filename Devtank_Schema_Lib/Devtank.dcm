@@ -57,6 +57,11 @@ D power-flag symbol +1.8V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +2.8V
+D power-flag symbol +2.8V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +2V5_LAN_A
 K POWER, PWR
 $ENDCMP
