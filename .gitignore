@@ -1,3 +1,4 @@
+*.rpt
 # export files for BOM
 *.tsv
 # backup files
@@ -7,3 +8,4 @@
 *.kicad_sch-bak
 */*backups/*.zip
 ~*
+
